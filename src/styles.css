@@ -1,0 +1,258 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0px;
+}
+
+section {
+  background-color: white;
+}
+
+.hero {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+  height: 100vh;
+  color: white;
+  font-size: 40px;
+}
+
+.main {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -225px;
+}
+
+footer {
+  
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+  color: white;
+  text-align: center;
+  padding: 80px;
+}
+
+ul#list li a {
+  color: white;
+  font-size: 30px;
+}
+
+nav {
+  justify-content: space-between;
+  display: flex;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  font-size: 30px;
+  justify-content: space-around;
+  color: rgb(46, 150, 210);
+}
+
+h1 {
+  font-size: 90px;
+  margin: 0;
+}
+
+.info {
+  max-width: 80%; /* Adjust the value to control the width */
+  margin-left: 0px; /* Push the text to the left */
+  margin-right: 0; /* Remove the right margin */
+  text-align: justify;
+  color: white;
+}
+
+p {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 300;
+  justify-content: center;
+}
+
+.hero-area {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.hero-text {
+  margin-left: 80px;
+  margin-bottom: 200px;
+}
+
+.button {
+  width: 175px;
+  height: 35px;
+  margin-top: 15px;
+  border-radius: 20px;
+  background-color: coral;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 5px;
+}
+
+.button:hover {
+  background-color: #ef744b;
+}
+
+.button:active {
+  background-color: #a9a9a9;
+  color: #808080;
+}
+
+.socials {
+  padding-bottom: 200px;
+}
+
+.logo {
+  height: 125px;
+  margin: 30px;
+}
+
+.social {
+  margin: 20px;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+.sub-section-alt {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+h2 {
+  font-size: 45px;
+  color: white;
+}
+
+.shot {
+  width: 225px; /* Decreased width to crop from the left side */
+  height: 225px; /* Maintain the same height */
+  border-radius: 125px; /* Maintain the circular shape */
+  margin-top: 30px;
+  margin-left: 50px; /* Increased margin to crop from the left side */
+}
+
+.headshot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subtext {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 5px;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the project cards horizontally */
+  align-items: center; /* Center the project cards vertically */
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.project-card {
+  width: 300px;
+  height: 275px;
+  box-shadow: 3px 3px 10px black;
+  margin-top: 25px;
+  margin: 40px;
+  color: white;
+}
+
+.project-image {
+  margin-top: 0px;
+  width: 300px;
+  height: 275px;
+}
+
+.project-imagetwo {
+  margin-top: 0px;
+  width: 300px;
+  height: 275px;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h3 {
+  margin-top: 25px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.project-link {
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger:focus {
+  outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
+  }
+
+  ul {
+    display: none;
+    background-color: transparent;
+    margin: 0px;
+  }
+
+  ul.show {
+    display: block;
+  }
+
+  nav {
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+  }
+
+  .logo {
+    display: none;
+  }
+}
